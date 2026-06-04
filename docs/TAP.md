@@ -1,5 +1,4 @@
 # Termo de Abertura do Projeto (TAP)
-// O que é o projeto?
 
 ## Nome do Projeto
 PM Hub
@@ -15,6 +14,7 @@ Desenvolver uma plataforma web de gerenciamento de projetos que permita centrali
 
 Além do desenvolvimento técnico, o projeto tem como objetivo aplicar conceitos de Gerenciamento de Projetos estudados durante a preparação para a certificação CAPM.
 
+## Justificativa
 O PM Hub será utilizado como projeto de portfólio para demonstrar conhecimentos em desenvolvimento de software, gestão de projetos, testes automatizados e análise de dados.
 
 ## Escopo
@@ -33,6 +33,9 @@ O sistema contará com os seguintes módulos:
 * Power BI
 * Cypress
 * SonarCloud
+
+## Patrocinador
+Projeto pessoal (sem patrocinador externo)
 
 ## Principais Entregas
 1. Estrutura inicial do sistema

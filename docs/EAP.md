@@ -1,5 +1,4 @@
 # Estrutura Analítica do Projeto (EAP)
-// "Quais entregas preciso fazer para concluir o projeto?"
 
 ## 1. Planejamento
 
@@ -22,6 +21,7 @@
 ### 2.1 Estrutura Inicial
 
 * Configuração do ambiente
+* Modelagem do banco de dados
 * Criação do projeto React
 * Configuração do Supabase
 * Configuração do GitHub
@@ -53,6 +53,7 @@
 
 ### 2.6 Dashboard
 
+* Definição dos KPIs
 * Indicadores de tarefas
 * Indicadores de riscos
 * Indicadores de desempenho
@@ -84,3 +85,4 @@
 * Revisão da documentação
 * Atualização do GitHub
 * Publicação da versão final
+* Publicação da documentação final

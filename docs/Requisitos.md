@@ -8,45 +8,48 @@ O sistema deve permitir o cadastro de projetos contendo nome, descrição, data 
 ### RF02 - Visualização de Projetos
 O sistema deve permitir a visualização dos projetos cadastrados.
 
-### RF03 - Cadastro de Tarefas
+### RF03 - Gerenciamento de Projetos
+O sistema deve permitir editar e excluir projetos cadastrados.
+
+### RF04 - Cadastro de Tarefas
 O sistema deve permitir a criação de tarefas vinculadas a um projeto.
 
-### RF04 - Gerenciamento de Tarefas
+### RF05 - Gerenciamento de Tarefas
 O sistema deve permitir alterar o status das tarefas entre:
 
 * À Fazer
 * Fazendo
 * Feito
 
-### RF05 - Definição de Prioridade
+### RF06 - Definição de Prioridade
 O sistema deve permitir definir a prioridade das tarefas:
 
 * Baixa
 * Média
 * Alta
 
-### RF06 - Atribuição de Responsáveis
+### RF07 - Atribuição de Responsáveis
 O sistema deve permitir associar tarefas a membros da equipe.
 
-### RF07 - Cadastro de Membros
+### RF08 - Cadastro de Membros
 O sistema deve permitir cadastrar membros da equipe do projeto.
 
-### RF08 - Cronograma
+### RF09 - Cronograma
 O sistema deve permitir registrar atividades com datas de início e término.
 
-### RF09 - Cadastro de Riscos
+### RF010 - Cadastro de Riscos
 O sistema deve permitir cadastrar riscos relacionados ao projeto.
 
-### RF10 - Classificação de Riscos
+### RF11 - Classificação de Riscos
 O sistema deve permitir definir probabilidade e impacto para cada risco.
 
-### RF11 - Visualização da Matriz de Riscos
+### RF12 - Visualização da Matriz de Riscos
 O sistema deve apresentar os riscos em uma matriz de impacto e probabilidade.
 
-### RF12 - Dashboard de Indicadores
-O sistema deve exibir indicadores relacionados ao andamento do projeto.
+### RF13 - Dashboard de Indicadores
+O sistema deve gerar indicadores automaticamente a partir dos dados cadastrados nos módulos do projeto.
 
-### RF13 - Indicadores de Tarefas
+### RF14 - Indicadores de Tarefas
 O sistema deve apresentar:
 
 * Total de tarefas
@@ -54,8 +57,11 @@ O sistema deve apresentar:
 * Tarefas em andamento
 * Percentual de conclusão
 
-### RF14 - Autenticação
+### RF15 - Autenticação
 O sistema deve permitir autenticação de usuários.
+
+### RF16 - Encerramento de Sessão
+O sistema deve permitir que o usuário encerre sua sessão de forma segura.
 
 ---
 
