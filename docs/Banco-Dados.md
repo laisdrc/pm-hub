@@ -1,7 +1,9 @@
-Usuario
+Membro
 - id
 - nome
 - email
+- cargo
+- projeto_id
 
 Projeto
 - id

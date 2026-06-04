@@ -1,37 +1,16 @@
-# 🚀 'PM Hub'
-Sistema web de gerenciamento de projetos.
+# React + Vite
 
-## 📌 Objetivo
-Desenvolver uma plataforma capaz de centralizar informações de projetos, acompanhar atividades, gerenciar riscos e visualizar indicadores em um único ambiente.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🛠️ Tecnologias
-- React
-- Supabase
-- Azure
-- Power BI
-- Cypress
-- SonarCloud
+Currently, two official plugins are available:
 
-## Roadmap
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### Planejamento
-- [x] Definição do escopo
-- [x] Escolha das tecnologias
+## React Compiler
 
-### Desenvolvimento
-- [ ] Estrutura inicial do projeto
-- [ ] Módulo Kanban
-- [ ] Cronograma de projetos
-- [ ] Gestão de riscos
-- [ ] Gestão da equipe
-- [ ] Dashboard de indicadores
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### Qualidade
-- [ ] Testes automatizados com Cypress
-- [ ] Análise de qualidade com SonarCloud
+## Expanding the ESLint configuration
 
-### Implantação
-- [ ] Publicação na Azure
-
-## Status
-📋 À Fazer
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
