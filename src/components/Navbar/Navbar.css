@@ -1,0 +1,84 @@
+/* ─────────────────────────────
+   NAVBAR
+───────────────────────────── */
+.navegacao {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 70px;
+  padding: 0 5%;
+
+  background: rgba(10, 8, 25, 0.6);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+}
+
+.navegacao__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.navegacao__texto-logo {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.navegacao__links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navegacao__links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+/* Underline animado ao hover */
+.navegacao__links a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background: linear-gradient(90deg, var(--neon-orange), var(--neon-pink));
+  transition: width 0.25s ease;
+}
+
+.navegacao__links a:hover {
+  color: var(--text-primary);
+}
+
+.navegacao__links a:hover::after {
+  width: 100%;
+}
+
+.navegacao__botao {
+  background: linear-gradient(135deg, var(--neon-orange), var(--neon-mid), var(--neon-pink));
+  color: white !important;
+  padding: 8px 18px;
+  border-radius: var(--radius-pill);
+  /* Duas camadas: glow difuso + brilho próximo */
+  box-shadow:
+    0 0 14px rgba(255, 74, 110, 0.45),
+    0 0 36px rgba(255, 45, 149, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.navegacao__botao:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 0 18px rgba(255, 74, 110, 0.6),
+    0 0 48px rgba(255, 45, 149, 0.28);
+}

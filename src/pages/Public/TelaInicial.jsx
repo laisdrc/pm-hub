@@ -74,29 +74,7 @@ const recursos = [
 export default function TelaInicial() {
   return (
     <>
-      <nav className="navegacao">
-        <Link to="/" className="navegacao__logo">
-          <img
-            src={logoImg}
-            alt="PM Hub Logo"
-            className="logo-cabecalho"
-          />
-          <span className="navegacao__texto-logo">PM Hub</span>
-        </Link>
-
-        <ul className="navegacao__links">
-          <li>
-            <a href="#recursos">Recursos</a>
-          </li>
-
-          <li>
-            <Link to="/login" className="navegacao__botao">
-              Fazer Login
-            </Link>
-          </li>
-        </ul>
-      </nav>
-
+      
       <section className="destaque">
         <h1 className="destaque__titulo">
           Domine seus projetos

@@ -8,11 +8,10 @@
 
 
 .logo-cabecalho {
-  width: 40px;         /* Controla o tamanho horizontal do logo */
-  height: 40px;        /* Mantém a proporção idêntica para ser um círculo perfeito */
-  object-fit: contain; /* Garante que a imagem se ajuste sem cortar */
+  width: 40px;         
+  height: 40px;        
+  object-fit: contain; 
   
-  /* Adiciona um leve brilho para combinar com a estética neon */
   filter: drop-shadow(0 0 8px rgba(255, 74, 110, 0.3)); 
 }
 
@@ -20,20 +19,19 @@
 :root {
   --text-primary: #ffffff;
   --text-secondary: rgba(255,255,255,0.92);
-  --text-muted: rgba(255,255,255,0.82);        /* era 0.75 — melhor contraste WCAG */
+  --text-muted: rgba(255,255,255,0.82);        
 
-  /* Gradiente mais coeso: laranja → coral intermediário → pink */
   --neon-orange: #ff6b3d;
-  --neon-mid:    #ff4a6e;                      /* novo: ponte entre os dois extremos */
+  --neon-mid:    #ff4a6e;                      
   --neon-pink:   #ff2d95;
 
   /* Cor de hover/accent para interações */
   --accent-hover: #ff8c5a;
 
   --border: rgba(255,255,255,0.12);
-  --border-hover: rgba(255,255,255,0.22);       /* novo: hover em bordas */
+  --border-hover: rgba(255,255,255,0.22);     
   --glass: rgba(255,255,255,0.06);
-  --glass-card: rgba(160,148,200,0.09);         /* novo: cinza azulado frio para cards */
+  --glass-card: rgba(160,148,200,0.09);         
 
   --font-display: 'Syne', sans-serif;
   --font-body: 'DM Sans', sans-serif;
@@ -70,90 +68,7 @@ body::before {
   pointer-events: none;
 }
 
-/* ─────────────────────────────
-   NAVBAR
-───────────────────────────── */
-.navegacao {
-  position: sticky;
-  top: 0;
-  z-index: 100;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  height: 70px;
-  padding: 0 5%;
-
-  background: rgba(10, 8, 25, 0.6);
-  backdrop-filter: blur(14px);
-  border-bottom: 1px solid var(--border);
-}
-
-.navegacao__logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-}
-
-.navegacao__texto-logo {
-  font-family: var(--font-display);
-  font-weight: 700;
-  color: var(--text-primary);
-}
-
-.navegacao__links {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-}
-
-.navegacao__links a {
-  color: var(--text-muted);
-  text-decoration: none;
-  transition: color 0.2s ease;
-  position: relative;
-}
-
-/* Underline animado ao hover */
-.navegacao__links a::after {
-  content: "";
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 1.5px;
-  background: linear-gradient(90deg, var(--neon-orange), var(--neon-pink));
-  transition: width 0.25s ease;
-}
-
-.navegacao__links a:hover {
-  color: var(--text-primary);
-}
-
-.navegacao__links a:hover::after {
-  width: 100%;
-}
-
-.navegacao__botao {
-  background: linear-gradient(135deg, var(--neon-orange), var(--neon-mid), var(--neon-pink));
-  color: white !important;
-  padding: 8px 18px;
-  border-radius: var(--radius-pill);
-  /* Duas camadas: glow difuso + brilho próximo */
-  box-shadow:
-    0 0 14px rgba(255, 74, 110, 0.45),
-    0 0 36px rgba(255, 45, 149, 0.2);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.navegacao__botao:hover {
-  transform: translateY(-1px);
-  box-shadow:
-    0 0 18px rgba(255, 74, 110, 0.6),
-    0 0 48px rgba(255, 45, 149, 0.28);
-}
 
 /* ─────────────────────────────
    HERO
@@ -264,7 +179,7 @@ body::before {
 
 
 /* ─────────────────────────────
-   FEATURES
+   RECURSOS
 ───────────────────────────── */
 .recursos {
   max-width: 1100px;
